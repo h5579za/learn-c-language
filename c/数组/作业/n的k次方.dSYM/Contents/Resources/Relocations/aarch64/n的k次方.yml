@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/liuchi/Desktop/c/数组/作业/n的k次方"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _pow, symObjAddr: 0x0, symBinAddr: 0x100003E54, symSize: 0xB8 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _pow, symObjAddr: 0x0, symBinAddr: 0x100003E54, symSize: 0xB8 }
+  - { offsetInCU: 0x77, offset: 0x77, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xB8, symBinAddr: 0x100003F0C, symSize: 0x78 }
+...
