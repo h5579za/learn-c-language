@@ -1,13 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int a=0x11223344;
-    int* pa=&a;
-    char* pc=&a;
-    printf("%p\n",pa);
-    printf("%p\n",pa+1);
-    printf("%p\n",pc);
-    printf("%p\n",pc+1);
-    //指针的类型决定了指针+-1操作的时候，跳过几个字节
+    char* pa=NULL;
+    short* pb=NULL;
+    int* pc=NULL;
+    double* pd=NULL;
+    //sizeof返回的值的类型是无符号整型   unsigned int
+    printf("%zu\n",sizeof(pa));
+    printf("%zu\n",sizeof(pb));
+    printf("%zu\n",sizeof(pc));
+    printf("%zu\n",sizeof(pd));
     return 0;
 }
