@@ -7,7 +7,7 @@ int SumOfElements(int A[],int size)
     {
         sum+=A[i];
     }
-    return sum;   
+    return sum;  
 }
 int main()
 {
